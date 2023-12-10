@@ -9,6 +9,6 @@ class HomeViewModelFactory(val homeActivity: HomeActivity) : ViewModelProvider.F
         if(modelClass.isAssignableFrom(HomeViewModel :: class.java)){
             return HomeViewModel(homeActivity) as T
         }
-        throw IllegalArgumentException("Data fetch failed")
+        throw IllegalArgumentException("Data fetch failed nkj")
     }
 }
